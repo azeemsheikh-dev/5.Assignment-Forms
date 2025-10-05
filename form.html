@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <br /><br />
+    <center>
+      <b
+        ><a href="index.html">Form 1</a> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="form.html">Form 2</a> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="form1.html">Form 3</a> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="form2.html">Form 4</a> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="form3.html">Form 5</a> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="form4.html">Form 6</a> &nbsp;&nbsp;&nbsp;&nbsp;
+         <a href="form5.html">Form 7</a>
+      </b>
+      <br /><br /><br /><br />
+      <h1>HTML Registration Form</h1>
+      <table border="0" width="20%">
+        <tr>
+          <td>
+            <form action="/action_page.php" id="form1" method="get">
+              <fieldset>
+                <legend>Login</legend>
+                <br />
+                <label for="fName"
+                  >Username* <br />
+                  <input type="text" name="username" size="40" id="fName" />
+                </label>
+                <br />
+                <br />
+                <label for="pName"
+                  >Password* <br />
+                  <input type="password" name="password" size="40" id="pName" />
+                </label>
+              </fieldset>
+              <br />
+              <fieldset>
+                <legend>Gender</legend>
+                <br />
+                <label for="b1">
+                  Male
+                  <input type="radio" name="Gender" id="b1" value="M" />
+                </label>
+                <label for="b2">
+                  Female
+                  <input type="radio" name="Gender" id="b2" value="F" />
+                </label>
+              </fieldset>
+              <br />
+              <fieldset>
+                <legend>Programming Skill</legend>
+                <br />
+                <label for="c1">
+                  Java
+                  <input type="checkbox" name="skills" id="c1" value="java" />
+                </label>
+                <label for="c2">
+                  C++
+                  <input type="checkbox" name="skills" id="c2" value="c++" />
+                </label>
+                <label for="c3">
+                  C#
+                  <input type="checkbox" name="skills" id="c3" value="c#" />
+                </label>
+              </fieldset>
+              <br />
+              <fieldset>
+                <legend>Fruit</legend>
+                <label for="">
+                  Choose a fruits:
+                  <select name="fruits" id="">
+                    <option value="Banana">Banana</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Mango">Mango</option>
+                  </select>
+                </label>
+              </fieldset>
+              <br />
+              <textarea
+                name="comments"
+                rows="10"
+                cols="65"
+                placeholder="Enter your comment here"
+              ></textarea>
+              <input type="submit" value="SEND" />
+              <input type="reset" value="RESET" />
+            </form>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
